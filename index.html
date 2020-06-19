@@ -49,7 +49,7 @@
 		<header>
 			<!-- Navbar fixa -->
 			<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
-				<a class="navbar-brand" href="#"> <img style="height: 32px;"src ="img/Grafismo.gif">  <img style="height:32px;" src="img/Tipologia.gif"></a>
+				<a class="navbar-brand" href="#"> <img class="logo" src ="img/Grafismo.gif">  <img class="logo" src="img/Tipologia.gif"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -78,19 +78,19 @@
 					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 				</ol>
 				<div class="carousel-inner">
-					<div class="carousel-item active align-middle">
-						<div class="d-block w-100 text-center text-light " style="margin-top: 60px; height: 480px; background-color: black;" alt="Primeiro Slide">
+					<div class="carousel-item active">
+						<div class="d-block w-100 text-center" alt="Primeiro Slide">
 							<h1>Gracielle Locatelli</h1>
 							<h2>Fisioterapeuta</h2>
-							<button>Agende sua avaliação</button>
+							<button class="btn btn-info">Agende sua avaliação</button>
 						</div>
 					</div>
 					<div class="carousel-item">
-						<div class="d-block w-100" style="height: 480px; background-color: gray;" alt="Segundo Slide">
+						<div class="d-block w-100" alt="Segundo Slide">
 						</div>
 					</div>
 					<div class="carousel-item">
-						<div class="d-block w-100" style="height: 480px; background-color: purple;" alt="Terceiro Slide">
+						<div class="d-block w-100"  alt="Terceiro Slide">
 						</div>
 					</div>
 				</div>
@@ -116,19 +116,69 @@
 
 				<p>Hoje realizo atendimentos na cidade do Rio de Janeiro, levando atendimento humanizado e de qualidade para quem precisa.</p>
 
-				<div id="tratamento-area">
 
-					<h1>Tratamentos</h1>
-					<ul>
-						<li>Fisioterapia Respiratória</li>
-						<li>Fisioterapia Motora</li>
-						<li>Fisioterapia geriátrica</li>
-						<li>Fisioterapia neurológica</li>
-						<li>RPG- reeducação postural</li>
-						<li>Fisioterapia Desportiva</li>
-						<li>Fisioterapia motora</li>
-					</ul>
-				</div>
+    <section class="section-padding" id="tratamento-area">
+        <div class="container">
+        	<h1  class="mt-5"> Tratamentos </h1>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="feature-box wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="box-icon">
+                            <i class="icofont icofont-idea"></i>
+                        </div>
+                        <h4>Fisioterapia Respiratória</h4>
+                        <p>É específica para prevenção e tratamento de doenças que atinjam o sistema respiratório, entre elas: asma, bronquite, enfisema pulmonar, tuberculose, COVID-19, pneumonia.</p>
+                        <p>Nesse tratamento são realizadas manobras e exercícios com objetivo de expandir os pulmões, melhorar a força da musculatura respiratória, treinar a respiração e melhorar a oxigenação do corpo</p>
+                        <p>As intervenções da fisioterapia respiratória são importantes principalmente pessoas que estão acamadas ou impossibilitadas de eliminar secreções dos pulmões através da tosse ou que estão se recuperando de um período longo de internação hospitalar</p>
+                        <p>As manobras da fisioterapia respiratória podem ser realizadas ainda dentro do hospital</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="feature-box wow fadeInUp" data-wow-delay="0.4s">
+                        <h4>Fisioterapia ortopédica</h4>
+                        <p>É, provavelmente, a área mais conhecida da Fisioterapia.</p>
+                        <p>Tem como principal objetivo tratar e prevenir lesões do sistema músculo-esquelético (Ossos, músculos, articulações, ligamentos, etc.)</p>
+                        <p>Muitas pessoas acabam adquirindo ou sofrendo lesões durante seu dia a dia ou na pratica esportiva, necessitando assim de fisioterapia ortopédica no seu processo de recuperação.</p>
+                        <p>Algumas das patologias que recebem tratamento com Fisioterapia Ortopédica: Tendinites, bursites, dores na coluna (lombalgia, cervicalgia, dorsalgia), osteoporose, fraturas, distensão ou contratura muscular, luxações, lesões por esforço repetitivo (LER).</p>
+                        <p>Também tem atuação importante antes e depois de cirurgias ortopédicas com os objetivos de acelerar a cicatrização do local, reabilitar os movimentos que ficaram debilitados, além de possibilitar alivio para os dores.</p>
+                        <p>O fisioterapeuta irá trabalhar para restabelecer as funções do paciente o mais segura e rapidamente possível, dentro do limite e capacidade de cada um, com objetivo de retorno a sua funcionalidade, prevenção de novas lesões e melhora da qualidade de vida.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="feature-box wow fadeInUp" data-wow-delay="0.6s">
+                        <h4>Fisioterapia geriátrica</h4>
+                        <p>Área da Fisioterapia voltada para atender as pessoas da terceira idade, para tornar o processo de envelhecimento mais saudável e seguro.</p>
+                        <p>Com a chegada da fase idosa, o aparecimento de lesões ou patologias podem ser comuns e a perda de algumas das funções naturais do corpo e da mente acabam limitando algumas atividades do dia a dia</p>
+                        <p>A Fisioterapia na terceira idade possibilitará ao idoso benefícios como: prevenção e tratamento de algumas patologias e lesões, aumento da força muscular, melhora do equilíbrio e coordenação, ajuste da postura corporal, diminuição das dores e do cansaço, entre outros. Além de possibilitar ou manter independência funcional nas atividades de vida diária e a autonomia, melhorar o convívio social e garantir o envelhecimento com qualidade de vida.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="feature-box wow fadeInUp" data-wow-delay="1.2s">
+                      	 <h4>Fisioterapia neurológica</h4>
+                        <p>A Fisioterapia neurológica realiza tratamentos em doenças que atinge o sistema nervoso do corpo, que podem gerar dificuldades em realizar movimentos complexos e alteração da sensibilidade.</p>
+                       	<p>Dentre as doenças neurológicas estão que são tratadas pela Fisioterapia neurológica: AVE, Parkinson, Alzheimer, Paralisia Cerebral, Trauma raqui-medular, trauma crânio-encefálico, entre outras.</p>
+                       	<p>Reabilitar os movimentos para retorno da sua independência motora e social, orientar sua família e evitar sequelas das doenças neurológicas são alguns dos objetivos da Fisioterapia neurológica.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="feature-box wow fadeInUp" data-wow-delay="1s">
+                        <h4>Reeducação postural global (RPG)</h4>
+                        <p>Com o uso de exercícios e alongamentos, o RPG busca o alinhamento da postura e redução das dores, gerando uma harmonia em todo o corpo.</p>
+                     	<p>Muitas das lesões e das dores no corpo advém de alterações da biomecânica corporal e o RPG visa o reequilíbrio postural e harmonia do corpo como um todo.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="feature-box wow fadeInUp" data-wow-delay="0.8s">
+                        <h4>Fisioterapia desportiva</h4>
+                        <p>Tem como objetivo reabilitar atletas profissionais ou amadores, tornando possível o retorno às atividades funcionais e esportivas, além de prevenir possíveis lesões futuras. </p>
+                        <p>Durante o tratamento serão realizados exercícios para redução das dores, ganho de força muscular, melhora da agilidade e do equilíbrio muscular, para uma recuperação e retorno ao esporte com segurança e no menor tempo possível.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 <img class="tratamento-imagem" src="img/tratamento1.JPG">
 <img class="tratamento-imagem" src="img/tratamento2.JPG">
 <img class="tratamento-imagem" src="img/tratamento3.JPG">
