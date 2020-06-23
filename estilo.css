@@ -104,7 +104,7 @@ code {
     transform: translate(3px, 3px);
 }
 
-.carousel-item {
+.carousel {
 	margin-top: 60px;
 	max-height: 550px;
 	}
